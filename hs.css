@@ -5,8 +5,9 @@ body {
 /* nav dispaly style */
 nav {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-tittle {
@@ -32,6 +33,14 @@ nav {
     line-height: normal;
 }
 
+.btn-contact {
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
 nav>ul {
     display: flex;
     align-items: center;
@@ -46,4 +55,45 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-tittle {
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-greeting {
+    color: #474747;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-para {
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+}
+
+.banner-profile {
+    width: 500px;
+    
 }
