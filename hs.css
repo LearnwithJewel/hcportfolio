@@ -195,3 +195,49 @@ main {
     font-weight: 700;
     line-height: normal;
 }
+
+.about-cards {
+    padding: 30px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-container hr {
+    margin: 30px;
+}
+
+.resume-item-description,
+.resume-item-instirute {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.download-cv{
+    
+    text-align: center;
+   color: #FD6E0A;
+   background-color: black;
+   
+   
+}
+
