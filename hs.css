@@ -231,14 +231,8 @@ main {
     font-weight: 700;
 
 }
-
 .download-cv{
-    
     text-align: center;
-   color: #FD6E0A;
-   background-color: black;
-   
-   
 }
 
 footer{
@@ -259,5 +253,8 @@ footer{
     background:  #FFF; 
     width: 100%;
 
+}
+.social-link a{
+    margin: 25px;
 }
 
